@@ -48,6 +48,9 @@
   flex-direction: column;
   margin-bottom: 70px;
 }
+.card__infoTexts {
+  display: flex;
+}
 .card__infoText {
   font-family: "Nunito";
   font-style: normal;
