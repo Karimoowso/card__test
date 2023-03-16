@@ -1,0 +1,86 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+.container
+  margin: 0 auto
+  max-width: 940px
+.card
+  display: flex
+  flex-direction: column
+  padding: 40px
+  &__orderNum
+    font-family: 'Nunito'
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 22px
+    color: #73798C
+  &__order
+    margin-bottom: 5px
+  &__title
+    display: flex
+    justify-content: space-between
+    margin-bottom: 31px
+  &__titleText
+    font-family: 'Nunito'
+    font-style: normal
+    font-weight: 600
+    font-size: 36px
+    line-height: 49px
+  &__infospan
+    height: 4px
+    background: #E2E2E9
+    border-radius: 2px
+    margin-bottom: 9px
+  &__info
+    display: flex
+    flex-direction: column
+    margin-bottom: 70px
+  &__infoText
+    font-family: 'Nunito'
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 22px
+  &__buttons
+    display: flex
+    justify-content: space-between
+  &__button
+    border: none
+    border-radius: 1000px
+    font-family: 'Nunito'
+    font-style: normal
+    font-weight: 600
+    font-size: 16px
+    line-height: 22px
+    padding: 13px 20px
+  &__buttonCence
+    color: #D15700
+    background: #FFF0E6
+  &__buttonMenu
+    color: #FFFFFF
+    background: #F96900
+@media screen and ( max-width: 375px )
+  .card
+    padding: 16px
+    &__orderNum
+     font-size: 12px
+     line-height: 14px
+    &__title
+      margin-bottom: 12px
+    &__titleText
+      font-size: 24px
+      line-height: 33px
+    &__titleTime
+      display: none
+    &__info
+      background: #F3F3F7
+      border-radius: 10px
+      padding: 18px 20px
+    &__infospan
+      display: none
+    &__buttons
+      display: contents
+    &__buttonCence
+      margin-bottom: 10px
